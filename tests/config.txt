@@ -1,0 +1,13 @@
+######################################
+# Rafael.Corsi @ Insper.edu.br       #
+#  Elementos de Sistemas             # 
+#                                    # 
+#  - Para incluir o teste basta      #
+#  descomentar a linha               #
+#                                    #
+######################################
+
+mux4.vhd
+detectGt9.vhd
+4BitAdder.vhd
+bcdAdder.vhd
