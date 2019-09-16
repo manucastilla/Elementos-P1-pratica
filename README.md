@@ -13,3 +13,5 @@ Você deve ser capaz de realizar essa avaliação sem consultar a internet, some
 A descrição da avaliação está no documento `2019-2 Elementos - Prova 01.odt`
 
 - Você tem 1h30 para a avaliação
+
+O script `testep2.py` testa os módulos com base no arquivo de configuração: `tests/config.txt` assim como é feito nos projetos.
