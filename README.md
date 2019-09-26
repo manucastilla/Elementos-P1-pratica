@@ -12,4 +12,4 @@ Você deve ser capaz de realizar essa avaliação sem consultar a internet, some
 
 A descrição da avaliação está no documento `2019-2 Elementos - Prova 01.odt`
 
-- Você tem 1h30 para a avaliação
+- Você tem 2h00 para a avaliação
