@@ -17,50 +17,31 @@ architecture tb of tb_mux4 is
 
   component mux4 is
     port(
-      x       : in STD_LOGIC_VECTOR(3 downto 0);
-      carryin : in Std_logic;
-      adjust  : out STD_LOGIC
+      x,y     : in STD_LOGIC_VECTOR(3 downto 0);
+      sel : in Std_logic;
+      z       : out STD_LOGIC_VECTOR(3 downto 0)
       );
   end component;
 
-
-signal  x : STD_LOGIC_VECTOR(3 downto 0);
-signal  carry,adjust : STD_LOGIC;
+signal  x,y,z : STD_LOGIC_VECTOR(3 downto 0);
+signal  sel : STD_LOGIC;
 
 begin
 
-  u1 : mux4 port map(x, carry, adjust);
+  u1 : mux4 port map(x, y, sel, z);
 
   main : process
   begin
     test_runner_setup(runner, runner_cfg);
 
     -- Teste: 1
-    x <= "0000"; carry <= '0';
+    x <= "1010"; y <= "0101"; sel <= '0';
     wait for 200 ps;
-    assert(adjust = '0')  report "Falha em teste: 1" severity error;
+    assert(z = "1010")  report "Falha em teste: 1" severity error;
 
-    -- Teste: 1
-    x <= "1001"; carry <= '0';
+   sel <= '1';
     wait for 200 ps;
-    assert(adjust = '0')  report "Falha em teste: 1" severity error;
-
-    -- Teste: 1
-    x <= "0000"; carry <= '1';
-    wait for 200 ps;
-    assert(adjust = '1')  report "Falha em teste: 1" severity error;
-
-
-    -- Teste: 1
-    x <= "1000"; carry <= '1';
-    wait for 200 ps;
-    assert(adjust = '1')  report "Falha em teste: 1" severity error;
-
-    -- Teste: 1
-    x <= "1010"; carry <= '0';
-    wait for 200 ps;
-    assert(adjust = '1')  report "Falha em teste: 1" severity error;
-
+    assert(z = "0101")  report "Falha em teste: 1" severity error;
 
     test_runner_cleanup(runner); -- Simulacao acaba aqui
 
