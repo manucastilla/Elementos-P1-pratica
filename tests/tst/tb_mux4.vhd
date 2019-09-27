@@ -9,13 +9,13 @@ use ieee.std_logic_1164.all;
 library vunit_lib;
 context vunit_lib.vunit_context;
 
-entity tb_detect9Gt is
+entity tb_mux4 is
   generic (runner_cfg : string);
 end entity;
 
-architecture tb of tb_detect9Gt is
+architecture tb of tb_mux4 is
 
-  component detectGt9 is
+  component mux4 is
     port(
       x       : in STD_LOGIC_VECTOR(3 downto 0);
       carryin : in Std_logic;
@@ -29,7 +29,7 @@ signal  carry,adjust : STD_LOGIC;
 
 begin
 
-  u1 : detectGt9 port map(x, carry, adjust);
+  u1 : mux4 port map(x, carry, adjust);
 
   main : process
   begin
