@@ -41,7 +41,7 @@
 # Project-Wide Assignments
 # ========================
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13
-set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "16.1.0 Standard Edition"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "MON MAY  5 11:54:18 2014"
 set_global_assignment -name FLOW_ENABLE_RTL_VIEWER ON
 set_global_assignment -name SMART_RECOMPILE ON
@@ -264,7 +264,7 @@ set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
 # Analysis & Synthesis Assignments
 # ================================
 set_global_assignment -name FAMILY "Cyclone V"
-set_global_assignment -name TOP_LEVEL_ENTITY ALU
+set_global_assignment -name TOP_LEVEL_ENTITY cronometro
 set_global_assignment -name OPTIMIZATION_TECHNIQUE SPEED
 set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS ON
 set_global_assignment -name PROJECT_IP_REGENERATION_POLICY ALWAYS_REGENERATE_IP
@@ -327,13 +327,6 @@ set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -
 
 # end ENTITY(TopLevel)
 # --------------------
-set_global_assignment -name VHDL_FILE ../src/rtl/mux4.vhd
-set_global_assignment -name VHDL_FILE ../src/rtl/FullAdder.vhd
-set_global_assignment -name VHDL_FILE ../src/rtl/detectGt9.vhd
-set_global_assignment -name VHDL_FILE ../src/rtl/bcdAdder.vhd
-set_global_assignment -name VHDL_FILE ../src/rtl/ALU.vhd
-set_global_assignment -name VHDL_FILE ../src/rtl/4BitAdder.vhd
-set_global_assignment -name SDC_FILE DE0_CV_Default.sdc
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -543,4 +536,18 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[1]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[2]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[3]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS
+set_global_assignment -name VHDL_FILE ../src/rtl/Mux2Way.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/Register4.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/bcdAdder/mux4.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/bcdAdder/FullAdder.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/bcdAdder/detectGt9.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/bcdAdder/bcdAdder.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/bcdAdder/4BitAdder.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/sevenSeg.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/questao1.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/FullAdder.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/FlipFlopD.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/cronometro.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/BinaryDigit.vhd
+set_global_assignment -name SDC_FILE DE0_CV_Default.sdc
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

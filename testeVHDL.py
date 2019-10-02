@@ -31,6 +31,8 @@ class tstP2(object):
 
     def addSrc(self, work):
         work.addSrc(self.rtl)
+        work.addSrc(self.rtl + 'register4/')
+        work.addSrc(self.rtl + 'bcdAdder/')
 
     def addTst(self, work):
         if work.addTstConfigFile(self.tst) is False:

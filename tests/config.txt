@@ -8,10 +8,10 @@
 ######################################
 
 # vhdl
-mux4.vhd
-detectGt9.vhd
-4BitAdder.vhd
-bcdAdder.vhd
+questao1.vhd
+Register4.vhd
+sevenSeg.vhd
+cronometro.vhd
 
 # NASM
 SWeLED.nasm 1 1000
