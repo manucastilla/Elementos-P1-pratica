@@ -26,7 +26,31 @@ architecture arch of Register4 is
 	end component;
 
 begin
+	register0: BinaryDigit port map(
+			clock 	=> clock,
+			input 	=> input(0),
+			load  	=>   load,
+			output	=> output(0)
+			);
 
+	register1: BinaryDigit port map(
+			clock 	=> clock,
+			input 	=> input(1),
+			load  	=>   load,
+			output	=> output(1)
+			);
 
+	register2: BinaryDigit port map(
+			clock 	=> clock,
+			input 	=> input(2),
+			load  	=>   load,
+			output	=> output(2)
+			);
 
+	register3: BinaryDigit port map(
+			clock 	=> clock,
+			input 	=> input(3),
+			load  	=>   load,
+			output	=> output(3)
+			);
 end architecture;

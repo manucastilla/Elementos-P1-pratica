@@ -1,0 +1,7 @@
+# vsim -modelsimini /home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Elementos-P1-pratica/vunit_out/test_output/lib.tb_questao1.all_2f69fefbdcbb540262da4531d0e8df5d9311ff6d/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_questao1(tb) -L vunit_lib -L lib -g/tb_questao1/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Elementos-P1-pratica/vunit_out/test_output/lib.tb_questao1.all_2f69fefbdcbb540262da4531d0e8df5d9311ff6d/,tb path : /home/borg/Elementos-P1-pratica/tests/tst/,use_color : true" 
+# Start time: 15:37:18 on Oct 02,2019
+# ** Warning: Design size of 20808 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Break in Subprogram stop at /home/borg/.local/lib/python3.6/site-packages/vunit/vhdl/core/src/stop_body_2008.vhd line 13
+# Stopped at /home/borg/.local/lib/python3.6/site-packages/vunit/vhdl/core/src/stop_body_2008.vhd line 13

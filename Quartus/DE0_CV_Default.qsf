@@ -41,7 +41,7 @@
 # Project-Wide Assignments
 # ========================
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13
-set_global_assignment -name LAST_QUARTUS_VERSION "16.1.0 Standard Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "MON MAY  5 11:54:18 2014"
 set_global_assignment -name FLOW_ENABLE_RTL_VIEWER ON
 set_global_assignment -name SMART_RECOMPILE ON
@@ -536,6 +536,10 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[1]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[2]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[3]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS
+set_global_assignment -name VHDL_FILE ../src/rtl/register4/Mux2Way.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/register4/FlipFlopD.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/register4/BinaryDigit.vhd
+set_global_assignment -name VHDL_FILE ../src/rtl/register4/Register4.vhd
 set_global_assignment -name VHDL_FILE ../src/rtl/Mux2Way.vhd
 set_global_assignment -name VHDL_FILE ../src/rtl/Register4.vhd
 set_global_assignment -name VHDL_FILE ../src/rtl/bcdAdder/mux4.vhd

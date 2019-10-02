@@ -20,6 +20,29 @@ architecture  rtl OF sevenSeg IS
 
 
 begin
+	a <= '1' when H="0001" else 
+		  '1'when	H="0100" else 
+		  '0';
+	b <= '1' when H="0001" else
+	     '1' when H="0101" else
+	     '1' when H="0110" else '0';
+	c <= '1' when H="0010" else '0';
+	d <= '1' when H="0100" else 
+		 '1' when H="0111" else 
+		 '1' when H="1001" else '0';
+	e <= '1' when H="0001" else 
+		 '1' when H="0011" else
+		 '1' when H="0100" else
+		 '1' when H="0101" else
+		 '1' when H="0111" else
+		 '1' when H="1001" else '0';
+	f <= '1' when H="0001" else
+		 '1' when H="0010" else 
+		 '1' when H="0011" else 
+		 '1' when H="0111" else '0';
+	g <= '1' when H="0000" else
+		 '1' when H="0001" else 
+		 '1' when H="0111" else '0';
 
 
 

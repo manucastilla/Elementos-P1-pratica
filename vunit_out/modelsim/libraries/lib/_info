@@ -1,0 +1,803 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/borg/Elementos-P1-pratica
+Ebcdadder
+Z1 w1570035268
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/bcdAdder.vhd
+Z5 F/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/bcdAdder.vhd
+l0
+L19
+Vl_Sh@N<_2UUMjM1o<1=4K2
+!s100 gzM??lAKb?j<69M;2D9e]0
+Z6 OV;C;10.5b;63
+33
+Z7 !s110 1570036462
+!i10b 1
+Z8 !s108 1570036462.000000
+Z9 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/bcdAdder.vhd|
+Z10 !s107 /home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/bcdAdder.vhd|
+!i113 1
+Z11 o-quiet -2008 -work lib
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 8 bcdadder 0 22 l_Sh@N<_2UUMjM1o<1=4K2
+l61
+L28
+VhDlkBgg59HF?=I_03ZRO`0
+!s100 a?Xe?:X6k@j`5Z0nfKb]B0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebinarydigit
+R1
+R2
+R3
+R0
+Z13 8/home/borg/Elementos-P1-pratica/src/rtl/register4/BinaryDigit.vhd
+Z14 F/home/borg/Elementos-P1-pratica/src/rtl/register4/BinaryDigit.vhd
+l0
+L8
+V9GGNKWiY70Q@UYNU886Q]0
+!s100 fFP230Rg1V>^^WU1G9Xa[2
+R6
+33
+Z15 !s110 1570035886
+!i10b 1
+Z16 !s108 1570035886.000000
+Z17 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/register4/BinaryDigit.vhd|
+Z18 !s107 /home/borg/Elementos-P1-pratica/src/rtl/register4/BinaryDigit.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 11 binarydigit 0 22 9GGNKWiY70Q@UYNU886Q]0
+l39
+L17
+VK[ejG=l5clLdO;Bn?ojMn3
+!s100 =Jf?k:bZ7^G7RQQA3W]OM1
+R6
+33
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Ebitadder4
+R1
+R2
+R3
+R0
+Z19 8/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/4BitAdder.vhd
+Z20 F/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/4BitAdder.vhd
+l0
+L18
+VA>ojRA=JcY2Y4=A?K1:6D3
+!s100 ahCcAcjo=OLfneOZ`F3]A3
+R6
+33
+R7
+!i10b 1
+R8
+Z21 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/4BitAdder.vhd|
+Z22 !s107 /home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/4BitAdder.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 9 bitadder4 0 22 A>ojRA=JcY2Y4=A?K1:6D3
+l39
+L28
+VK`jz=NheKIf=5l;D`gCgQ2
+!s100 Ol>>CIP:62E9jehe>6k]a2
+R6
+33
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Ecronometro
+Z23 w1570039046
+R2
+R3
+R0
+Z24 8/home/borg/Elementos-P1-pratica/src/rtl/cronometro.vhd
+Z25 F/home/borg/Elementos-P1-pratica/src/rtl/cronometro.vhd
+l0
+L13
+VHN18A6gRKNXjBGXi_N`2z3
+!s100 32HjF9l:ajcSFPHjIj48O2
+R6
+33
+Z26 !s110 1570041438
+!i10b 1
+Z27 !s108 1570041438.000000
+Z28 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/cronometro.vhd|
+Z29 !s107 /home/borg/Elementos-P1-pratica/src/rtl/cronometro.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 10 cronometro 0 22 HN18A6gRKNXjBGXi_N`2z3
+l52
+L22
+VKWRi`58zL_V8HW_>`@Bzi3
+!s100 LocemHh;`W8j5USY?8HJn3
+R6
+33
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12
+Edetectgt9
+R1
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z31 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R0
+Z32 8/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/detectGt9.vhd
+Z33 F/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/detectGt9.vhd
+l0
+L18
+V_U7Jc=USAT;eW6jW:QfiQ3
+!s100 >oK[A`O@6BbLBEijd8hGi2
+R6
+33
+R7
+!i10b 1
+R8
+Z34 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/detectGt9.vhd|
+Z35 !s107 /home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/detectGt9.vhd|
+!i113 1
+R11
+R12
+Artl
+R30
+R31
+R2
+R3
+DEx4 work 9 detectgt9 0 22 _U7Jc=USAT;eW6jW:QfiQ3
+l30
+L27
+VB?VNi8Mi5?I6cDXQ44YhJ1
+!s100 DoF;Z9edOi_U>IQN;Sljd2
+R6
+33
+R7
+!i10b 1
+R8
+R34
+R35
+!i113 1
+R11
+R12
+Eflipflopd
+R1
+R2
+R3
+R0
+Z36 8/home/borg/Elementos-P1-pratica/src/rtl/register4/FlipFlopD.vhd
+Z37 F/home/borg/Elementos-P1-pratica/src/rtl/register4/FlipFlopD.vhd
+l0
+L8
+Vb>0d0SFJ7I_bZn7^0fNI20
+!s100 dO0M_NbMc7lj3o=60[LCQ0
+R6
+33
+R15
+!i10b 1
+R16
+Z38 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/register4/FlipFlopD.vhd|
+Z39 !s107 /home/borg/Elementos-P1-pratica/src/rtl/register4/FlipFlopD.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 9 flipflopd 0 22 b>0d0SFJ7I_bZn7^0fNI20
+l19
+L18
+VDSc1UChN53R?7TRm`X1z<1
+!s100 :Uj_C>J1F8V9h74jdn<2F3
+R6
+33
+R15
+!i10b 1
+R16
+R38
+R39
+!i113 1
+R11
+R12
+Efulladder
+R1
+R2
+R3
+R0
+Z40 8/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/FullAdder.vhd
+Z41 F/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/FullAdder.vhd
+l0
+L10
+V;RB>US:oiVgf@@2;ERnEW2
+!s100 ^oFEXWUb;T^9LUJXBGnJH2
+R6
+33
+R7
+!i10b 1
+R8
+Z42 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/FullAdder.vhd|
+Z43 !s107 /home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/FullAdder.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 9 fulladder 0 22 ;RB>US:oiVgf@@2;ERnEW2
+l19
+L17
+V[laCfk;CR>d<keWbX_EOQ3
+!s100 [QWc`mP`=`F]k3[eD1BGK2
+R6
+33
+R7
+!i10b 1
+R8
+R42
+R43
+!i113 1
+R11
+R12
+Emux2way
+R1
+R2
+R3
+R0
+Z44 8/home/borg/Elementos-P1-pratica/src/rtl/register4/Mux2Way.vhd
+Z45 F/home/borg/Elementos-P1-pratica/src/rtl/register4/Mux2Way.vhd
+l0
+L8
+VzzYNcn;4foNeV0zkcd2>Z0
+!s100 nMi?A[MKJJbLjHo4Z7zj=1
+R6
+33
+R15
+!i10b 1
+R16
+Z46 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/register4/Mux2Way.vhd|
+Z47 !s107 /home/borg/Elementos-P1-pratica/src/rtl/register4/Mux2Way.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 7 mux2way 0 22 zzYNcn;4foNeV0zkcd2>Z0
+l20
+L16
+V]oVoVKQfkcR2eC@`fl=LQ3
+!s100 <nO@lRMTJgRKR660MR^`02
+R6
+33
+R15
+!i10b 1
+R16
+R46
+R47
+!i113 1
+R11
+R12
+Emux4
+R1
+R2
+R3
+R0
+Z48 8/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/mux4.vhd
+Z49 F/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/mux4.vhd
+l0
+L4
+VnaFO0]37Nn7]3X;Al?REj0
+!s100 57H0B9>Z[FS2LT2oY0lR21
+R6
+33
+R7
+!i10b 1
+R8
+Z50 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/mux4.vhd|
+Z51 !s107 /home/borg/Elementos-P1-pratica/src/rtl/bcdAdder/mux4.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 4 mux4 0 22 naFO0]37Nn7]3X;Al?REj0
+l13
+L12
+VBZg6Caf=N>]mXFKQC]R?h0
+!s100 l4R:RdN@ZP<YGfzg6Q16`3
+R6
+33
+R7
+!i10b 1
+R8
+R50
+R51
+!i113 1
+R11
+R12
+Equestao1
+Z52 w1570036577
+R2
+R3
+R0
+Z53 8/home/borg/Elementos-P1-pratica/src/rtl/questao1.vhd
+Z54 F/home/borg/Elementos-P1-pratica/src/rtl/questao1.vhd
+l0
+L13
+V`S>8Rd;?KTfg`0<6aQcfo0
+!s100 T?1dafm]Hl]YL6l81z4zC3
+R6
+33
+Z55 !s110 1570036579
+!i10b 1
+Z56 !s108 1570036579.000000
+Z57 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/questao1.vhd|
+Z58 !s107 /home/borg/Elementos-P1-pratica/src/rtl/questao1.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 8 questao1 0 22 `S>8Rd;?KTfg`0<6aQcfo0
+l23
+L19
+VfEST5HdRHBNU_]jfTThQ82
+!s100 zKnGYonTF<RziBH=Z]V:K2
+R6
+33
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 1
+R11
+R12
+Eregister4
+Z59 w1570037628
+R2
+R3
+R0
+Z60 8/home/borg/Elementos-P1-pratica/src/rtl/register4/Register4.vhd
+Z61 F/home/borg/Elementos-P1-pratica/src/rtl/register4/Register4.vhd
+l0
+L8
+VN?[oLI<^JVHEL]d[OTogm1
+!s100 ^CkOO10]z52=M5>7mh3zd0
+R6
+33
+Z62 !s110 1570037695
+!i10b 1
+Z63 !s108 1570037695.000000
+Z64 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/register4/Register4.vhd|
+Z65 !s107 /home/borg/Elementos-P1-pratica/src/rtl/register4/Register4.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 9 register4 0 22 N?[oLI<^JVHEL]d[OTogm1
+l28
+L17
+ViI6_a]^QiPjPefTHh1J;J2
+!s100 j@PdPbGA[`BBe^fiYzDlW1
+R6
+33
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R11
+R12
+Esevenseg
+Z66 w1570041435
+R2
+R3
+R0
+Z67 8/home/borg/Elementos-P1-pratica/src/rtl/sevenSeg.vhd
+Z68 F/home/borg/Elementos-P1-pratica/src/rtl/sevenSeg.vhd
+l0
+L13
+VD3DaYH^H5Z=HNkL4MiLc50
+!s100 h7>NP`6a^^kIFAd;_0azi2
+R6
+33
+R26
+!i10b 1
+R27
+Z69 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/src/rtl/sevenSeg.vhd|
+Z70 !s107 /home/borg/Elementos-P1-pratica/src/rtl/sevenSeg.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 8 sevenseg 0 22 D3DaYH^H5Z=HNkL4MiLc50
+l22
+L19
+V=Cko9CR@Cm:TTJU6izM;[1
+!s100 5:Tldmf3DS8;Y9C;iANZ61
+R6
+33
+R26
+!i10b 1
+R27
+R69
+R70
+!i113 1
+R11
+R12
+Etb_questao1
+R1
+Z71 D^#x9 vunit_lib 13 vunit_context 0 22 5PF4h;N3nzRfAo898Q8WS3
+Z72 DPx9 vunit_lib 18 run_deprecated_pkg 0 22 06HHNn=l0Y?PoSLo8^<h00
+Z73 DPx9 vunit_lib 10 runner_pkg 0 22 NQlg?N:7cfzSYD?FX_C9W0
+Z74 DPx9 vunit_lib 7 run_pkg 0 22 ?ilEX`>N>LaongBVTRfDn1
+Z75 DPx9 vunit_lib 13 run_types_pkg 0 22 ]8KoceJmoGz<@LgQaN5R62
+Z76 DPx9 vunit_lib 20 check_deprecated_pkg 0 22 Y>TVz>[kI8XoP@P02gCOJ2
+Z77 DPx9 vunit_lib 9 check_pkg 0 22 k_?TDGU?=n?1Z0oahO>zF0
+Z78 DPx9 vunit_lib 11 checker_pkg 0 22 E?dhhcE;9VWnHLW[lW4`Y1
+Z79 DPx9 vunit_lib 8 stop_pkg 0 22 UjKiHFdPQ97>_>m`nM3cg3
+Z80 DPx9 vunit_lib 8 core_pkg 0 22 0M7EG>QDghVT?B78KOYPn0
+Z81 DPx9 vunit_lib 18 log_deprecated_pkg 0 22 Q7[lfBh_WC:ca^W64YP1U2
+Z82 DPx9 vunit_lib 9 print_pkg 0 22 z3A9G[B4JdMci]Ub;PK=S3
+Z83 DPx9 vunit_lib 4 path 0 22 ]@TR:IFM`TWfiVL<ZjY=I3
+Z84 DPx9 vunit_lib 15 log_handler_pkg 0 22 nl_I;6SFb6@cB[0oB[Gm?1
+Z85 DPx9 vunit_lib 8 ansi_pkg 0 22 h9cG]NHf=IYSX>SV5U_OM1
+Z86 DPx9 vunit_lib 14 log_levels_pkg 0 22 jGUFnEUH1mU?HKm3YRPGj3
+Z87 DPx9 vunit_lib 10 logger_pkg 0 22 Jj3MC9=bR4jQbFA1jSDXY2
+Z88 DPx9 vunit_lib 10 dictionary 0 22 _W8>On_YoEFWEDP8TQC@R0
+Z89 DPx9 vunit_lib 10 string_ops 0 22 >6lVd?dSYVCeeU;1?_=bg2
+Z90 D^#x9 vunit_lib 18 data_types_context 0 22 1?>9FT=3YA15`7IYa:H9b2
+Z91 DPx9 vunit_lib 8 dict_pkg 0 22 ehbf8zR4VgoO:66`0b==c3
+Z92 DPx9 vunit_lib 19 string_ptr_pool_pkg 0 22 I^`873Q>JaL`RoU3I`C2H1
+Z93 DPx9 vunit_lib 14 queue_pool_pkg 0 22 Z[=D0HJacYBCm0dE3aodk1
+Z94 DPx9 vunit_lib 17 integer_array_pkg 0 22 CJcNR>m;3A:?0bl`^YYN^0
+Z95 DPx9 vunit_lib 14 string_ptr_pkg 0 22 BcAU_Z][LeU1aR2CQKdF;1
+Z96 DPx9 vunit_lib 9 queue_pkg 0 22 ;89lc5:Q?7a@<EYe0_F1m0
+Z97 DPx9 vunit_lib 27 integer_vector_ptr_pool_pkg 0 22 >4MC1]6h[egYG8GmK_OaU3
+Z98 DPx9 vunit_lib 17 codec_builder_pkg 0 22 lMzaQB]AGo[9c?7g60J_93
+Z99 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z100 DPx4 ieee 11 numeric_bit 0 22 d<O?S;AIQfOzoHU3FDK]23
+Z101 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z102 DPx4 ieee 12 math_complex 0 22 5i:;_e<WQ2;?b7>BdkGQL0
+Z103 DPx9 vunit_lib 9 codec_pkg 0 22 VE]>YKnj@eiUJ<U1YSEXb3
+Z104 DPx9 vunit_lib 22 integer_vector_ptr_pkg 0 22 KNo?M3?g8Rc_m:IGUMQ<m0
+R2
+R3
+R0
+Z105 8/home/borg/Elementos-P1-pratica/tests/tst/tb_questao1.vhd
+Z106 F/home/borg/Elementos-P1-pratica/tests/tst/tb_questao1.vhd
+l0
+L7
+V;aYKIEJQ<hI4c@ca29NhY2
+!s100 `];i4]Q@Mi[664KL5SYb53
+R6
+33
+Z107 !s110 1570036464
+!i10b 1
+Z108 !s108 1570036464.000000
+Z109 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/tests/tst/tb_questao1.vhd|
+Z110 !s107 /home/borg/Elementos-P1-pratica/tests/tst/tb_questao1.vhd|
+!i113 1
+R11
+R12
+Atb
+R71
+R72
+R73
+R74
+R75
+R76
+R77
+R78
+R79
+R80
+R81
+R82
+R83
+R84
+R85
+R86
+R87
+R88
+R89
+R90
+R91
+R92
+R93
+R94
+R95
+R96
+R97
+R98
+R99
+R100
+R101
+R102
+R103
+R104
+R2
+R3
+DEx4 work 11 tb_questao1 0 22 ;aYKIEJQ<hI4c@ca29NhY2
+l22
+L11
+Vdn]f<37EPUalTe`h1WF_o3
+!s100 :Xf1]meP5EJA0M:BZ`z672
+R6
+33
+R107
+!i10b 1
+R108
+R109
+R110
+!i113 1
+R11
+R12
+Etb_register4
+R1
+R71
+R72
+R73
+R74
+R75
+R76
+R77
+R78
+R79
+R80
+R81
+R82
+R83
+R84
+R85
+R86
+R87
+R88
+R89
+R90
+R91
+R92
+R93
+R94
+R95
+R96
+R97
+R98
+R99
+R100
+R101
+R102
+R103
+R104
+R2
+R3
+R0
+Z111 8/home/borg/Elementos-P1-pratica/tests/tst/tb_Register4.vhd
+Z112 F/home/borg/Elementos-P1-pratica/tests/tst/tb_Register4.vhd
+l0
+L12
+VC;OKG:UD1EY?f9N8KnIOW2
+!s100 =CTkiLD6JKoQAhneN7H_C0
+R6
+33
+Z113 !s110 1570037709
+!i10b 1
+Z114 !s108 1570037709.000000
+Z115 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/tests/tst/tb_Register4.vhd|
+Z116 !s107 /home/borg/Elementos-P1-pratica/tests/tst/tb_Register4.vhd|
+!i113 1
+R11
+R12
+Atb
+R71
+R72
+R73
+R74
+R75
+R76
+R77
+R78
+R79
+R80
+R81
+R82
+R83
+R84
+R85
+R86
+R87
+R88
+R89
+R90
+R91
+R92
+R93
+R94
+R95
+R96
+R97
+R98
+R99
+R100
+R101
+R102
+R103
+R104
+R2
+R3
+DEx4 work 12 tb_register4 0 22 C;OKG:UD1EY?f9N8KnIOW2
+l32
+L16
+V5[57]bkPkA4>HTc>9InfR0
+!s100 WV^Noi<2[SCKz9@Wb=Z?<2
+R6
+33
+R113
+!i10b 1
+R114
+R115
+R116
+!i113 1
+R11
+R12
+Etb_sevenseg
+R1
+R71
+R72
+R73
+R74
+R75
+R76
+R77
+R78
+R79
+R80
+R81
+R82
+R83
+R84
+R85
+R86
+R87
+R88
+R89
+R90
+R91
+R92
+R93
+R94
+R95
+R96
+R97
+R98
+R99
+R100
+R101
+R102
+R103
+R104
+R2
+R3
+R0
+Z117 8/home/borg/Elementos-P1-pratica/tests/tst/tb_sevenSeg.vhd
+Z118 F/home/borg/Elementos-P1-pratica/tests/tst/tb_sevenSeg.vhd
+l0
+L7
+VAAQCMd;?>PfO4GC?ZZC?G1
+!s100 ;`bLe^YL0NFSNM:?2noi03
+R6
+33
+R26
+!i10b 1
+R27
+Z119 !s90 -quiet|-modelsimini|/home/borg/Elementos-P1-pratica/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Elementos-P1-pratica/tests/tst/tb_sevenSeg.vhd|
+Z120 !s107 /home/borg/Elementos-P1-pratica/tests/tst/tb_sevenSeg.vhd|
+!i113 1
+R11
+R12
+Atb
+R71
+R72
+R73
+R74
+R75
+R76
+R77
+R78
+R79
+R80
+R81
+R82
+R83
+R84
+R85
+R86
+R87
+R88
+R89
+R90
+R91
+R92
+R93
+R94
+R95
+R96
+R97
+R98
+R99
+R100
+R101
+R102
+R103
+R104
+R2
+R3
+DEx4 work 11 tb_sevenseg 0 22 AAQCMd;?>PfO4GC?ZZC?G1
+l23
+L11
+Vj17g9Y2Ednh8XQP=o42RK0
+!s100 bUOemYk5J_cOn@:ef_;`L1
+R6
+33
+R26
+!i10b 1
+R27
+R119
+R120
+!i113 1
+R11
+R12
